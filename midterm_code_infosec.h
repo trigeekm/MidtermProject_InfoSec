@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-  string name;
+	string name;
 	int age = 0; //Sanford Apfel
 	cout << "What is your name? ";
 	getline(cin, name);
