@@ -6,7 +6,10 @@ using namespace std;
 int main()
 {
   string name;
-  cout << "What is your name? ";
-  getline (cin, name);
-  cout << "Hello, " << name << "!\n";
+	int age = 0; //Sanford Apfel
+	cout << "What is your name? ";
+	getline(cin, name);
+	cout << "How old are you?";
+	cin >> age;
+	cout << "Hello, " << age << " year old " << name << "!\n";
 }
