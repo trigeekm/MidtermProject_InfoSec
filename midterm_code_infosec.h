@@ -4,16 +4,16 @@ using namespace std;
 
 int main()
 {
-	string name;
+	string name;  // John Von Hagen
 	int age = 0; //Sanford Apfel
-	int switchans = 0;
-	cout << "What is your name? ";
+	int switchans = 0;  // Dyana Jo Stewart
+	cout << "What is your name? "; // John Von Hagen
 	getline(cin, name);
-	cout << "How old are you?";
+	cout << "How old are you?";  // Sanford Apfel
 	std::cin >> age;
-	cout << "Hello, " << age << " year old " << name << "!\n" <<
-		"Will you be getting the Nintendo Switch? (1: Yes , 2: No)" << endl;
-	std::cin >> switchans;
+	cout << "Hello, " << name << ", You are " << age << " years old"!\n" << endl;  // John Von Hagen
+		"Will you be getting the Nintendo Switch? (1: Yes , 2: No)" << endl;  // Dyana Jo Stewart
+	std::cin >> switchans;  // Dyana Jo Stewart
 		switch (switchans) {
 		case 1: std::cout << "Enjoy spending $70 on a new controller.\n";
 			break;
